@@ -1,0 +1,133 @@
+/* CSS Document */
+html,body{
+	max-width: 80%;
+	margin:auto;
+	background: white;
+	padding: 10px;
+	height: 100%;
+}
+
+header{
+content: url( "../img/portada superior.jpg");
+	width: 100%;
+	height: 20%;
+}
+
+nav{
+	background-color: #DADADA;
+	padding: 5px;
+}
+
+ol{
+	list-style-type: none;
+	margin: 0;
+	padding:10px;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	position: sticky;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: #000;
+	padding: 14px 261px;
+	text-decoration: none;
+	text-align: center;
+	position:relative;
+}
+
+li a:hover{
+	background-color: #555;
+	color: white;
+	}
+
+section{
+	background-color:#4880EF;
+	float: left;
+	width: 100%;
+	height: 80%
+}
+
+
+
+
+
+
+
+figure {
+			border: thin  #F2DADB solid;
+			padding:auto;
+			margin: auto;
+			max-width: 1010px;
+			}
+		figcaption
+		{
+			background-color: #222;
+			color: #FFFFFF;
+			font: smaller italic;
+			padding: 3px;
+			text-align: center;
+		}
+.waifu{
+	content: url( "../img/1.png");
+	width: 500px;
+}
+.violion{
+	content: url( "../img/2.jpg");
+	width: 500px;
+}
+/*--filtro para desenfocar*/ 
+img, img:hover {
+	transition: all 2s ease-in-out;
+	
+}
+img.enfoque:hover
+{
+	filter: blur(5px)
+}
+
+img.gris:hover{
+	filter: grayscale(130%)
+}
+
+img.sepia:hover{
+	filter: sepia(80%);
+}
+img.rota:hover{
+	filter: hue-rotate(180deg);
+}
+img.opacar:hover{
+	filter: opacity(.5);
+}
+.zoomin:hover .zoom{
+	transform: scale(1.7)
+}
+.zoomin {
+	overflow: hidden;
+}
+img.rotarX:hover{
+	transform: rotate(360deg)
+}
+img.rotarY:hover{
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+img.transformar:hover{
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px 15px #6D0405;
+	transform: rotate(360deg);
+}
+img.TransformarReves{
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px 15px;
+}
+img.TransformarReves:hover{
+	border-radius: 0;
+	box-shadow: 0px 0px 0px 0px #FFF;
+	transform: rotate(360deg);
+}
+
